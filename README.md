@@ -6,6 +6,6 @@ Driftsmeldingen må følge definisjonen i schema.json:
 
 ```json
 {
-"message": "En feil har skjedd"
+  "message": "En feil har skjedd"
 }
 ```
