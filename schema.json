@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Driftsmelding",
+  "type": "object",
+  "description": "En driftsmelding på FIKS-platformen",
+  "properties": {
+    "message": {
+      "type": "string",
+      "description": "The message to show the users"
+    }
+  },
+  "required": ["message"]
+}
