@@ -13,11 +13,11 @@ Driftsmeldingen må følge definisjonen i schema.json:
 ## Legg inn en driftsmelding
 
 ### Minside
-* [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-dev.json)
-* [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-test.json)
-* [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-prod.json)
+* [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-dev.json)
+* [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-test.json)
+* [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-prod.json)
 
 ### Forvaltning
-* [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-dev.json)
-* [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-test.json)
-* [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-prod.json)
+* [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-fiks-dev.json)
+* [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-fiks-test.json)
+* [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-fiks-prod.json)
