@@ -2,7 +2,7 @@
 Hvis en driftsmelding er satt vil den vises som et banner på Minside.
 
 ## Skjema
-Driftsmeldingen må følge definisjonen i schema.json:
+Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise den korrekt:
 
 ```json
 {
