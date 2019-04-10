@@ -1,5 +1,5 @@
 # fiks-driftsmeldinger
-Hvis en driftsmelding er satt vil den vises som et banner på Minside.
+Hvis en driftsmelding er satt vil den vises som et banner på Minside eller Fiks Forvaltning.
 
 ## Skjema
 Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise den korrekt:
