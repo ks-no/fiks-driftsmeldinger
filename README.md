@@ -17,7 +17,7 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 * [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-test.json)
 * [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-prod.json)
 
-### Forvaltning (under utvikling 👷)
+### Forvaltning
 * [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-fiks-dev.json)
 * [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-fiks-test.json)
 * [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/forvaltning-fiks-prod.json)
