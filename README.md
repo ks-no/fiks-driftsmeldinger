@@ -15,9 +15,7 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 ## Nye apps
 
 For at pipeline skal validere driftsmeldingene, må nye filer følge navnekonvensjonen
-`{app}-fiks-{dev|test|prod}`
-
-Legg også til app i Jenkinsfile.
+`{app}-fiks-{dev|test|prod}`. Legg også til app i Jenkinsfile.
 
 ## Legg inn en driftsmelding
 
