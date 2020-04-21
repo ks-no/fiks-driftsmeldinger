@@ -2,9 +2,6 @@ pipeline {
     agent {
           dockerfile {}
     }
-    environment {
- 
-    }
 
     stages {
         stage('Verify driftsmeldinger json') {               
