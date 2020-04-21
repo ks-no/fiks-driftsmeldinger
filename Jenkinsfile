@@ -3,7 +3,7 @@ pipeline {
           dockerfile {}
     }
     environment {
-        MILJO = ['dev', 'test', 'prod'],
+        MILJO = ['dev', 'test', 'prod']
         APPS = ['minside', 'forvaltning', 'bekymringsmelding']
     }
 
