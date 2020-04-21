@@ -3,17 +3,18 @@ pipeline {
           dockerfile {}
     }
     environment {
-        MILJO = ['dev', 'test', 'prod']
-        APPS = ['minside', 'forvaltning', 'bekymringsmelding']
+ 
     }
 
     stages {
         stage('Verify driftsmeldinger json') {               
                 stage('Verify driftsmeldinger for Minside') {
                     steps {
-                        for (app in env.APPS) {
-                            for(miljo in env.MILJO) {
-                                sh "ajv validate -s schema.json -d ${app}-fiks-${miljo}.json"
+                        def miljo = ['dev', 'test', 'prod']
+                        def apps = ['minside', 'forvaltning', 'bekymringsmelding']
+                        for (app in apps) {
+                            for(m in miljo) {
+                                sh "ajv validate -s schema.json -d ${app}-fiks-${m}.json"
                             }    
                         }
                     }
