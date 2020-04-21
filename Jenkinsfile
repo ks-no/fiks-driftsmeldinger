@@ -2,25 +2,22 @@ pipeline {
     agent {
           dockerfile {}
     }
+    environment {
+        MILJO = ['dev', 'test', 'prod'],
+        APPS = ['minside', 'forvaltning', 'bekymringsmelding']
+    }
 
     stages {
-        stage('Verify driftsmeldinger json') {
-            parallel {                
+        stage('Verify driftsmeldinger json') {               
                 stage('Verify driftsmeldinger for Minside') {
                     steps {
-                        sh "ajv validate -s schema.json -d minside-fiks-dev.json"
-                        sh "ajv validate -s schema.json -d minside-fiks-test.json"
-                        sh "ajv validate -s schema.json -d minside-fiks-prod.json"
+                        for (app in env.APPS) {
+                            for(miljo in env.MILJO) {
+                                sh "ajv validate -s schema.json -d ${app}-fiks-${miljo}.json"
+                            }    
+                        }
                     }
                 }
-                stage('Verify driftsmeldinger for Forvaltning') {
-                    steps {
-                        sh "ajv validate -s schema.json -d forvaltning-fiks-dev.json"
-                        sh "ajv validate -s schema.json -d forvaltning-fiks-test.json"
-                        sh "ajv validate -s schema.json -d forvaltning-fiks-prod.json"
-                    }
-                }
-            }
-        }    
+        }
     }
 }
