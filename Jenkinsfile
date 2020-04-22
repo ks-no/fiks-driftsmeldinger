@@ -4,23 +4,18 @@ pipeline {
     }
 
     stages {
-        stage('Verify driftsmeldinger json') {
-            parallel {                
-                stage('Verify driftsmeldinger for Minside') {
-                    steps {
-                        sh "ajv validate -s schema.json -d minside-fiks-dev.json"
-                        sh "ajv validate -s schema.json -d minside-fiks-test.json"
-                        sh "ajv validate -s schema.json -d minside-fiks-prod.json"
-                    }
-                }
-                stage('Verify driftsmeldinger for Forvaltning') {
-                    steps {
-                        sh "ajv validate -s schema.json -d forvaltning-fiks-dev.json"
-                        sh "ajv validate -s schema.json -d forvaltning-fiks-test.json"
-                        sh "ajv validate -s schema.json -d forvaltning-fiks-prod.json"
+        stage('Verify driftsmeldinger json') {               
+            steps {
+                script {
+                    def miljoer = ['dev', 'test', 'prod']
+                    def apps = ['minside', 'forvaltning', 'bekymringsmelding']
+                    for (app in apps) {
+                        for(miljo in miljoer) {
+                            sh "ajv validate -s schema.json -d ${app}-fiks-${miljo}.json"
+                        }    
                     }
                 }
             }
-        }    
+        }
     }
 }
