@@ -1,6 +1,6 @@
 # fiks-driftsmeldinger
 
-Hvis en driftsmelding er satt vil den vises som et banner på Minside eller Fiks Forvaltning.
+Hvis en driftsmelding er satt vil den vises som et banner på Minside, Fiks Forvaltning eller Bekymringsmelding.
 
 ## Skjema
 
