@@ -1,6 +1,6 @@
 # fiks-driftsmeldinger
 
-Hvis en driftsmelding er satt vil den vises som et banner på Minside, Fiks Forvaltning eller Bekymringsmelding.
+Hvis en driftsmelding er satt vil den vises som et banner på applikasjonen den er satt.
 
 ## Skjema
 
@@ -12,10 +12,10 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 }
 ```
 
-## Nye apps
+## Ny driftsmelding?
 
-For at pipeline skal validere driftsmeldingene, må nye filer følge navnekonvensjonen
-`{app}-fiks-{dev|test|prod}`. Legg også til app i Jenkinsfile.
+> :information_source: For at pipeline skal validere driftsmeldingene, må nye filer følge navnekonvensjonen
+`{app}-fiks-{dev|test|prod}`. Husk også å oppdatere Jenkinsfile.
 
 ## Legg inn en driftsmelding
 
