@@ -12,10 +12,10 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 }
 ```
 
-## Ny driftsmelding?
+## Legge inn driftsmelding for applikasjon som ikke er i listen under?
 
-> :information_source: For at pipeline skal validere driftsmeldingene, må nye filer følge navnekonvensjonen
-`{app}-fiks-{dev|test|prod}`. Husk også å oppdatere Jenkinsfile.
+> :information_source: Ingen problem, bare lag nye filer for applikasjonen som følger navnekonvensjonen
+`{app}-fiks-{dev|test|prod}`. Husk også å oppdatere Jenkinsfile. 
 
 ## Legg inn en driftsmelding
 
