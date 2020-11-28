@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script {
                     def miljoer = ['dev', 'test', 'prod']
-                    def apps = ['minside', 'forvaltning', 'bekymringsmelding']
+                    def apps = ['minside', 'forvaltning', 'bekymringsmelding', 'svarut', 'dhis2']
                     for (app in apps) {
                         for(miljo in miljoer) {
                             sh "ajv validate -s schema.json -d ${app}-fiks-${miljo}.json"
