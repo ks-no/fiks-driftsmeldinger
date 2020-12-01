@@ -36,3 +36,15 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 - [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/bekymringsmelding-fiks-dev.json)
 - [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/bekymringsmelding-fiks-test.json)
 - [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/bekymringsmelding-fiks-prod.json)
+
+### Svarut
+
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/svarut-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/svarut-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/svarut-fiks-prod.json)
+
+### Dhis2
+
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-prod.json)
