@@ -1,2 +1,2 @@
-FROM node:11.10.0
+FROM node:12.20.1
 RUN npm install -g ajv-cli
