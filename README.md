@@ -48,3 +48,9 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 - [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-dev.json)
 - [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-test.json)
 - [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-prod.json)
+
+### Tisk
+
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/tisk-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/tisk-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/tisk-fiks-prod.json)
