@@ -43,14 +43,20 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 - [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/svarut-fiks-test.json)
 - [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/svarut-fiks-prod.json)
 
-### Dhis2
+### Covid19
 
 - [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-dev.json)
 - [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-test.json)
 - [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/dhis2-fiks-prod.json)
 
-### Tisk
+### Helse
 
-- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/tisk-fiks-dev.json)
-- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/tisk-fiks-test.json)
-- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/tisk-fiks-prod.json)
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/helse-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/helse-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/helse-fiks-prod.json)
+
+### Smittevern
+
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/smittevern-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/smittevern-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/smittevern-fiks-prod.json)
