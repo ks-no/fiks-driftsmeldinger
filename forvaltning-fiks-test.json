@@ -1,3 +1,3 @@
 {
-     "message": "Vi gjør en oppdatering av testmiljøet i dag for å støtte det nye Maskinporten TEST miljøet. Dette vil kunne påvirke API kall mot vårt testmiljø"
+     "message": "Vi har oppdatert vårt testmiljø til å støtte det nye testmiljøet for ID-porten og Maskinporten. Alle API konsumenter anbefales å oppdatere snarest"
 }
