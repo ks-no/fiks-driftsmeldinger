@@ -1,6 +1,7 @@
-# fiks-driftsmeldinger
 
 > Leter du etter driftsmeldinger for Fiks plattformen? Se [status.fiks.ks.no](https://status.fiks.ks.no).
+
+# fiks-driftsmeldinger
 
 Hvis en driftsmelding er satt vil den vises som et banner på applikasjonen den er satt.
 
