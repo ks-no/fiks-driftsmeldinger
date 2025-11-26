@@ -22,7 +22,7 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 
 ## Legg inn en driftsmelding
 
-### Minside
+### MinKommune og MinKommuneBarnevern
 
 - [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-dev.json)
 - [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/minside-fiks-test.json)
