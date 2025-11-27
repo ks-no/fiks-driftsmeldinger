@@ -1,4 +1,3 @@
-
 > Leter du etter driftsmeldinger for Fiks plattformen? Se [status.fiks.ks.no](https://status.fiks.ks.no).
 
 # fiks-driftsmeldinger
@@ -18,7 +17,7 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 ## Legge inn driftsmelding for applikasjon som ikke er i listen under?
 
 > :information_source: Ingen problem, bare lag nye filer for applikasjonen som følger navnekonvensjonen
-`{app}-fiks-{dev|test|prod}`. Husk også å oppdatere Jenkinsfile. 
+> `{app}-fiks-{dev|test|prod}`. Husk også å oppdatere Jenkinsfile.
 
 ## Legg inn en driftsmelding
 
@@ -63,3 +62,15 @@ Driftsmeldingen må følge definisjonen i schema.json for at frontend skal vise 
 - [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/smittevern-fiks-dev.json)
 - [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/smittevern-fiks-test.json)
 - [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/smittevern-fiks-prod.json)
+
+### Melding
+
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/melding-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/melding-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/melding-fiks-prod.json)
+
+### Send brev
+
+- [Dev](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/send-brev-fiks-dev.json)
+- [Test](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/send-brev-fiks-test.json)
+- [Prod](https://github.com/ks-no/fiks-driftsmeldinger/edit/master/send-brev-fiks-prod.json)
