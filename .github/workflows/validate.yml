@@ -1,0 +1,23 @@
+name: Verify driftsmeldinger json
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli
+
+      - name: Validate driftsmeldinger JSON files
+        run: |
+          for app in minside forvaltning bekymringsmelding svarut dhis2 helse smittevern; do
+            for miljo in dev test prod; do
+              ajv validate -s schema.json -d "${app}-fiks-${miljo}.json"
+            done
+          done
