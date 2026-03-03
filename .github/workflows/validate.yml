@@ -2,7 +2,6 @@ name: Verify driftsmeldinger json
 
 on:
   push:
-  pull_request:
 
 jobs:
   validate:
