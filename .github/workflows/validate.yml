@@ -16,7 +16,7 @@ jobs:
 
       - name: Validate driftsmeldinger JSON files
         run: |
-          for app in minside forvaltning bekymringsmelding svarut dhis2 helse smittevern; do
+          for app in minside forvaltning bekymringsmelding svarut dhis2 helse smittevern besoksbidrag; do
             for miljo in dev test prod; do
               ajv validate -s schema.json -d "${app}-fiks-${miljo}.json"
             done
